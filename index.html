@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div>
+        <h1 class="head">TIC TAC TOE</h1>
+        <p class="para">... Game starts by just tap the box ... <br><br>... Here player 1 as 'x' and player 2 as 'o' ...</p>
+    </div>
+    <div id="box">
+        <div class="line1">
+            <input type="text" id="b1" onclick="func3();check();" readonly>
+            <input type="text" id="b2" onclick="func4();check();" readonly>
+            <input type="text" id="b3" onclick="func5();check();" readonly>
+        </div>
+        <div class="line2">
+            <input type="text" id="b4" onclick="func6();check();" readonly>
+            <input type="text" id="b5" onclick="func7();check();" readonly>
+            <input type="text" id="b6" onclick="func8();check();" readonly>
+        </div>
+        <div class="line3">
+            <input type="text" id="b7" onclick="func9();check();" readonly>
+            <input type="text" id="b8" onclick="func10();check();" readonly>
+            <input type="text" id="b9" onclick="func11();check();" readonly>
+        </div>
+    </div>
+    <div>
+        <button id="button" onclick="reset()">RELOAD</button>
+        <h2 id="out"></h2>
+    </div>
+</body>
+</html>

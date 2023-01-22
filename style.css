@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: lavenderblush;
+}
+
+body{
+    font-family: 'Lora', serif;
+}
+
+.head{
+    padding-top: 160px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.para{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#button{
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    border-width: 3px;
+    margin-top: 50px;
+    margin-left: 915px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: aqua;
+    font-family: 'Rowdies', cursive;
+    border-radius: 20px;
+}
+
+#out{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.line1{
+    margin-top: 60px;
+    margin-left: 750px;
+}
+
+.line2{
+    margin-top: 20px;
+    margin-left: 750px;
+}
+
+.line3{
+    margin-top: 20px;
+    margin-left: 750px;
+}
+
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9{
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 30px;
+    border-width: 3px;
+}
+
+input:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+#box{
+    margin-right: auto;
+    margin-left: auto;
+}
